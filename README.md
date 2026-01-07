@@ -4,7 +4,7 @@ Dream Travel Agency is a responsive and visually engaging travel website designe
 https://meerab786.github.io/Dream-Travels-Project/
 
 📁 GitHub Repository
-https://github.com/Meerab786/Travels-Agency-Project
+https://github.com/Meerab786/Dream-Travels-Project.git
 
 🛠 Technologies Used
 - HTML5

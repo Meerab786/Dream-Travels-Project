@@ -13,7 +13,7 @@ https://github.com/Meerab786/Dream-Travels-Project.git
 
 📊 Project Deliverables
 - Fully functional website with Home, About, Services, Gallery, and Contact pages
-- MS Word project documentation (compiled into PDF)
+- MS Word project documentation 
 - Excel file with project data and charts
 - PowerPoint presentation
 - Project video

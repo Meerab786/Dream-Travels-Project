@@ -1,0 +1,23 @@
+Project Title: Dream Travels Agency Website
+
+Group Members and Contributions:
+
+1. Meerab Usman
+   - Website gallery section design and implementation
+   - Project documentation and Word report preparation
+
+2. Arisha Mohsin
+   - Main homepage development
+   - Project video creation and editing
+
+3. Zaineb Asif
+   - Website About section content and layout
+   - Excel data preparation, formulas, and charts
+
+4. Noor Fatima
+   - PowerPoint presentation design and content
+   - Website Contact page development
+
+5. Sana Humayun
+   - Website Services section development
+   - FAQ section content and organization

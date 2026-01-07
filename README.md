@@ -14,14 +14,14 @@ https://github.com/Meerab786/Dream-Travels-Project.git
 
 ## 📊 Project Deliverables
 - Fully functional website with Home, About, Services, Gallery, and Contact pages
-- MS Word project documentation (Dream_Travels_Final_Report.pdf)
-- Excel file with project data and charts (Dream_Travels_Data.xlsx)
-- PowerPoint presentation (Dream_Travels_Presentation.pptx)
+- [MS Word project documentation](Dream_Travels_Final_Report.pdf)
+- [Excel file with project data and charts](Dream_Travels_Data.xlsx)
+- [PowerPoint presentation](Dream_Travels_Presentation.pptx)
 - Project video
 - LinkedIn project post
 
 ## 👥 Team Contributions
-See `contribution.txt` for detailed group member roles. (contribution.txt)
+[See `contribution.txt` for detailed group member roles.](contribution.txt)
 
 ## 🎓 Course Information
 - Course: Application of Information & Communication Technology (AICT)

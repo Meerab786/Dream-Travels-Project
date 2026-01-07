@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Travel Agency - Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+    <nav class="top-nav">
+        <div class="logo">
+            <img src="logo.png" alt="Dream Travels Logo">
+        </div>
+        <a class="nav-item" href="index.html">Home</a>
+        <a class="nav-item" href="about.html">About</a>
+        <a class="nav-item" href="service.html">Services</a>
+        <a class="nav-item" href="gallery.html">Gallery</a>
+        <a class="nav-item" href="faq.html">FAQ</a>
+        <a class="nav-item" href="contact.html">Contact</a>
+    </nav>
+</header>
+
+    <section class="contact-form-section">
+        <div class="contact-wrapper">
+            <div class="contact-form-container">
+                <div class="contact-form-card">
+                    <h1 class="contact-main-title">Dream Travel Agency</h1>
+                    <p class="contact-main-subtitle">Plan Your Perfect Vacation</p>
+                    
+                    <form class="contact-multi-step-form" action="#" method="POST">
+                        <div class="contact-tabs">
+                            <input type="radio" name="contact-tab" id="contact-tab1" checked>
+                            <input type="radio" name="contact-tab" id="contact-tab2">
+                            <input type="radio" name="contact-tab" id="contact-tab3">
+                            <input type="radio" name="contact-tab" id="contact-tab4">
+                            
+                            <div class="contact-progress-bar">
+                                <label for="contact-tab1" class="contact-progress-step active">1</label>
+                                <label for="contact-tab2" class="contact-progress-step">2</label>
+                                <label for="contact-tab3" class="contact-progress-step">3</label>
+                                <label for="contact-tab4" class="contact-progress-step">4</label>
+                            </div>
+                            
+                            <div class="contact-tab-content">
+                                <div class="contact-tab-panel" id="contact-panel1">
+                                    <h2>Personal Information</h2>
+                                    
+                                    <div class="contact-form-field-group">
+                                        <input type="text" id="contact-name" name="name" required placeholder="Enter your full name">
+                                        <label for="contact-name">Full Name *</label>
+                                    </div>
+                                    
+                                    <div class="contact-form-field-group">
+                                        <input type="email" id="contact-email" name="email" required placeholder="Enter your email address">
+                                        <label for="contact-email">Email Address *</label>
+                                    </div>
+                                    
+                                    <div class="contact-form-field-group">
+                                        <input type="tel" id="contact-phone" name="phone" placeholder="Enter your phone number">
+                                        <label for="contact-phone">Phone Number</label>
+                                    </div>
+                                    
+                                    <div class="contact-form-field-group">
+                                        <label>Number of Travelers *</label>
+                                        <div class="contact-form-options">
+                                            <label class="contact-form-option">
+                                                <input type="radio" name="travelers" value="1" checked>
+                                                <span>1</span>
+                                            </label>
+                                            <label class="contact-form-option">
+                                                <input type="radio" name="travelers" value="2">
+                                                <span>2</span>
+                                            </label>
+                                            <label class="contact-form-option">
+                                                <input type="radio" name="travelers" value="3">
+                                                <span>3-4</span>
+                                            </label>
+                                            <label class="contact-form-option">
+                                                <input type="radio" name="travelers" value="4">
+                                                <span>5+</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-form-navigation">
+                                        <label for="contact-tab2" class="contact-form-btn contact-next-btn">Next →</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-tab-panel" id="contact-panel2">
+                                    <h2>Travel Details</h2>
+                                    
+                                    <div class="contact-form-field-group">
+                                        <label>Trip Type *</label>
+                                        <div class="contact-form-cards">
+                                            <label class="contact-form-card-option">
+                                                <input type="radio" name="tripType" value="adventure" required>
+                                                <span>Adventure</span>
+                                            </label>
+                                            <label class="contact-form-card-option">
+                                                <input type="radio" name="tripType" value="leisure">
+                                                <span>Leisure</span>
+                                            </label>
+                                            <label class="contact-form-card-option">
+                                                <input type="radio" name="tripType" value="family">
+                                                <span>Family</span>
+                                            </label>
+                                            <label class="contact-form-card-option">
+                                                <input type="radio" name="tripType" value="business">
+                                                <span>Business</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-form-field-group">
+                                        <input type="text" id="contact-destination" name="destination" required placeholder="Where do you want to go?">
+                                        <label for="contact-destination">Destination *</label>
+                                    </div>
+                                    
+                                    <div class="contact-form-row">
+                                        <div class="contact-form-field-group">
+                                            <label for="contact-startDate">Start Date *</label>
+                                            <input type="date" id="contact-startDate" name="startDate" required>
+                                            <span class="date-format-hint">MM/DD/YYYY</span>
+                                        </div>
+                                        <div class="contact-form-field-group">
+                                            <label for="contact-endDate">End Date *</label>
+                                            <input type="date" id="contact-endDate" name="endDate" required>
+                                            <span class="date-format-hint">MM/DD/YYYY</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-form-navigation">
+                                        <label for="contact-tab1" class="contact-form-btn contact-prev-btn">← Previous</label>
+                                        <label for="contact-tab3" class="contact-form-btn contact-next-btn">Next →</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-tab-panel" id="contact-panel3">
+                                    <h2>Accommodation</h2>
+                                    
+                                    <div class="contact-form-field-group">
+                                        <label for="contact-hotelType">Hotel Type *</label>
+                                        <select id="contact-hotelType" name="hotelType" required>
+                                            <option value="" disabled selected>Select type</option>
+                                            <option value="budget">Budget</option>
+                                            <option value="3star">3-Star</option>
+                                            <option value="4star">4-Star</option>
+                                            <option value="5star">5-Star</option>
+                                            <option value="resort">Resort</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="contact-form-field-group">
+                                        <label>Room Type *</label>
+                                        <div class="contact-form-cards">
+                                            <label class="contact-form-card-option">
+                                                <input type="radio" name="roomType" value="single" required>
+                                                <span>Single</span>
+                                            </label>
+                                            <label class="contact-form-card-option">
+                                                <input type="radio" name="roomType" value="double">
+                                                <span>Double</span>
+                                            </label>
+                                            <label class="contact-form-card-option">
+                                                <input type="radio" name="roomType" value="suite">
+                                                <span>Suite</span>
+                                            </label>
+                                            <label class="contact-form-card-option">
+                                                <input type="radio" name="roomType" value="family">
+                                                <span>Family</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-form-field-group">
+                                        <label>Activities (Select all that apply)</label>
+                                        <div class="contact-form-checkboxes">
+                                            <label class="contact-form-checkbox">
+                                                <input type="checkbox" name="activities[]" value="sightseeing">
+                                                <span>Sightseeing</span>
+                                            </label>
+                                            <label class="contact-form-checkbox">
+                                                <input type="checkbox" name="activities[]" value="hiking">
+                                                <span>Hiking</span>
+                                            </label>
+                                            <label class="contact-form-checkbox">
+                                                <input type="checkbox" name="activities[]" value="food">
+                                                <span>Food Tours</span>
+                                            </label>
+                                            <label class="contact-form-checkbox">
+                                                <input type="checkbox" name="activities[]" value="shopping">
+                                                <span>Shopping</span>
+                                            </label>
+                                            <label class="contact-form-checkbox">
+                                                <input type="checkbox" name="activities[]" value="cultural">
+                                                <span>Cultural</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-form-navigation">
+                                        <label for="contact-tab2" class="contact-form-btn contact-prev-btn">← Previous</label>
+                                        <label for="contact-tab4" class="contact-form-btn contact-next-btn">Next →</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-tab-panel" id="contact-panel4">
+                                    <h2>Final Details</h2>
+                                    
+                                    <div class="contact-form-field-group">
+                                        <label>Budget Range (Per Person) *</label>
+                                        <div class="contact-form-budget-options">
+                                            <label class="contact-form-budget-option">
+                                                <input type="radio" name="budget" value="15000-25000" required>
+                                                <span class="budget-amount">15,000 - 25,000 PKR</span>
+                                                <span class="budget-label">Economy</span>
+                                            </label>
+                                            <label class="contact-form-budget-option">
+                                                <input type="radio" name="budget" value="25000-35000">
+                                                <span class="budget-amount">25,000 - 35,000 PKR</span>
+                                                <span class="budget-label">Standard</span>
+                                            </label>
+                                            <label class="contact-form-budget-option">
+                                                <input type="radio" name="budget" value="35000-45000">
+                                                <span class="budget-amount">35,000 - 45,000 PKR</span>
+                                                <span class="budget-label">Premium</span>
+                                            </label>
+                                            <label class="contact-form-budget-option">
+                                                <input type="radio" name="budget" value="50000+">
+                                                <span class="budget-amount">50,000+ PKR</span>
+                                                <span class="budget-label">Luxury</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                    <div class="contact-form-field-group">
+                                        <label class="contact-terms-checkbox">
+                                            <input type="checkbox" name="terms" required>
+                                            <span>I agree to terms & conditions *</span>
+                                        </label>
+                                    </div>
+                                    
+                                    <div class="contact-form-navigation">
+                                        <label for="contact-tab3" class="contact-form-btn contact-prev-btn">← Previous</label>
+                                        <button type="submit" class="contact-form-btn contact-submit-btn">Submit Request</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer1">
+        <h2>Contact Us</h2>
+         <p>Email: dreamtravels@gmail.com</p>
+        <p>Phone: +92 300 1234567</p>
+        <p>Address: 123 Travel Lane, Adventure City, Pakistan</p>
+    </footer>
+    
+    <footer class="site-footer">
+        <p>&copy; 2024 Dream Travel Agency. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -24,5 +24,5 @@ https://github.com/Meerab786/Dream-Travels-Project.git
 [See `contribution.txt` for detailed group member roles.](contribution.txt)
 
 ## 🎓 Course Information
-- Course: Application of Information & Communication Technology (AICT)
+- Course: Application of Information & Communication Technology (AICT-Lab)
 - Instructor: Mam Ramsha Khalid

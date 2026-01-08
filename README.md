@@ -18,7 +18,7 @@ https://github.com/Meerab786/Dream-Travels-Project.git
 - [Excel file with project data and charts](Dream_Travels_Data.xlsx)
 - [PowerPoint presentation](Dream_Travels_Presentation.pptx)
 - Project video
-- LinkedIn project post
+- [LinkedIn project post](screenshot(145))
 
 ## 👥 Team Contributions
 [See `contribution.txt` for detailed group member roles.](contribution.txt)
